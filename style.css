@@ -1,0 +1,75 @@
+body{
+    font-family: "IM Fell Double Pica", serif;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+ i{
+    color: #DBAFA0;;
+ }
+ h1,h2{
+    color: #DBAFA0;
+    text-align: center;
+    transition: all 0.5s;
+ }
+ h2 span i{
+    transition: all 0.5s;
+ }
+ h1:hover, h2:hover, h2:hover span i{
+    color: #704264;
+ }
+ .form-label{
+    transition: all 0.5s;
+ }
+ .form-label span i{
+    transition: all 0.5s;
+ }
+ .form-label:hover, .form-label:hover span i{
+    color: white;
+ }
+ .form-control{
+    background-color: #704264;
+    color: #DBAFA0;
+    font-family: "The Girl Next Door", cursive;
+    padding: 2%;
+    border: #DBAFA0 dashed 2px;
+ }
+ .addurl{
+    background-color: transparent;
+    border: #DBAFA0 dashed 2px;
+    color: #DBAFA0;
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 700;
+    transition: all 0.5;
+}
+ .addurl2{
+    background-color: transparent;
+    border: #dbafa04f dashed 2px;
+    color: #dbafa04f;
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 700;
+    transition: all 0.5;
+}
+.addurl2:hover{
+   background-color: transparent;
+   border: #dbafa04f dashed 2px;
+    color: #dbafa04f;
+}
+.addurl:hover{
+    background-color: #704264;
+}
+.table{
+    --bs-table-bg: #DBAFA0;
+    --bs-table-color: #49243E;
+}
+.table tr td{
+    color: #49243E;
+}
